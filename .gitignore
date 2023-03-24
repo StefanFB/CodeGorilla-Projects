@@ -1,4 +1,3 @@
-/Participants/.idea/
-/Participants/Participants.iml
-/Participants/out/
-!/Participants/src
+.idea/
+Participants.iml
+out/
