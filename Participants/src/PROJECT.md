@@ -12,6 +12,6 @@ The goal of this project is to create a simple GUI form that allows users to res
 ## Planning
 - [x] Prepare (watch tutorial videos)
 - [x] Create repository on Github
-- [] Add participants (and save it in a data structure)
-- [] Show participants (name + time) in the text box
-- [] Check for wrong inputs and display warnings accordingly
+- [ ] Add participants (and save it in a data structure)
+- [ ] Show participants (name + time) in the text box
+- [ ] Check for wrong inputs and display warnings accordingly
