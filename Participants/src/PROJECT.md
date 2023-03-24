@@ -10,8 +10,8 @@ The goal of this project is to create a simple GUI form that allows users to res
 * Code has to be visible on Github and be updated daily
 
 ## Planning
-[x] Prepare (watch tutorial videos)
-[x] Create repository on Github
-[] Add participants (and save it in a data structure)
-[] Show participants (name + time) in the text box
-[] Check for wrong inputs and display warnings accordingly
+- [x] Prepare (watch tutorial videos)
+- [x] Create repository on Github
+- [] Add participants (and save it in a data structure)
+- [] Show participants (name + time) in the text box
+- [] Check for wrong inputs and display warnings accordingly
