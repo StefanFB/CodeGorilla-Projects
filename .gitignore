@@ -1,2 +1,5 @@
 Participants/.idea/
 Participants/Participants.iml
+
+# Exclude the src folder, but include the content
+# This way the dir-tree is cleaner on Github
