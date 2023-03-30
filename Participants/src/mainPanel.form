@@ -23,6 +23,8 @@
           </grid>
         </constraints>
         <properties>
+          <focusable value="true"/>
+          <requestFocusEnabled value="true"/>
           <text value=""/>
           <toolTipText value=""/>
         </properties>

@@ -7,17 +7,17 @@ The goal of this project is to create a simple GUI form that allows users to res
 * Check for wrong inputs and display warnings accordingly
 * Write clear comments for the classes, methods and functions
 * Divide your code into classes and explain briefly why it needs to be a separate class
-* Code has to be visible on Github and be updated daily
+* Code has to be visible on GitHub and be updated daily
 
 ## Task List
 - [x] Prepare (watch tutorial videos)
-- [x] Create repository on Github
+- [x] Create repository on GitHub
 - [x] Add participants (and save it in a data structure)
 - [x] Show participants (name + time) in the text box
 - [x] Check for wrong inputs and display warnings accordingly
-- [ ] Reset the form after each added participant
-- [ ] Empty an input field when the user selects that field
-- [ ] Add explanation why my class needs to be separate
+- [x] Reset the form after each added participant
+- [x] Empty an input field when the user selects that field
+- [x] Add explanation why my class needs to be separate
 
 ## Strategy and decisions
 After reading the assignment and reading or watching all materials in the assignment, I started working on the layout of the form. With the Swing UI designer it was pretty easy to click-and-drag the components to the correct location and alter their most important properties like width and height.

@@ -1,3 +1,7 @@
+/**
+ * This class is for creating a new participant.
+ *
+ */
 public class Participant {
     String name;
     int timeHour;
