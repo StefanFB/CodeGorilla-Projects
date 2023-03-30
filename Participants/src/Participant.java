@@ -8,4 +8,8 @@ public class Participant {
         this.timeHour = timeHour;
         this.timeMin = timeMin;
     }
+
+    String showParticipantStr() {
+        return String.format("%s, reservation at %02d:%02d\n", this.name, this.timeHour, this.timeMin);
+    }
 }
