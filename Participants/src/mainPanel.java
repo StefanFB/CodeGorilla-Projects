@@ -5,11 +5,11 @@ import java.awt.event.ActionListener;
 public class mainPanel extends JFrame {
     public JPanel panelMain;
     private JTextField fieldName;
-    private JFormattedTextField outFieldLog;
     public JSpinner timeH;
     private JButton addParticipantButton;
     public JSpinner timeM;
-    private JFormattedTextField outFieldParticipants;
+    private JTextArea participantsText;
+    private JTextArea logText;
 
     public mainPanel() {
         addParticipantButton.addActionListener(new ActionListener() {
@@ -20,11 +20,15 @@ public class mainPanel extends JFrame {
                 int minutes = (int) timeM.getValue();
 
                 if (username.equals("")) { // Username has to be provided
-                    String msg = String.format("Please provide a valid name");
-                    JOptionPane.showMessageDialog(addParticipantButton, msg);
+                    String msg = "Please provide a valid name\n";
+                    logText.append(msg);
                 } else {  // Display success message to the user
-                    String msg = String.format("Thanks %s, you reserved at %02d:%02d", username, hours, minutes);
-                    JOptionPane.showMessageDialog(addParticipantButton, msg);
+                    String participantsMsg = String.format("%s, reservation at %02d:%02d\n", username, hours, minutes);
+                    participantsText.append(participantsMsg);
+                    String logMsg = String.format("%s was added\n", username, hours, minutes);
+                    logText.append(logMsg);
+                    // String msg = String.format("Thanks %s, you reserved at %02d:%02d\n", username, hours, minutes);
+                    // JOptionPane.showMessageDialog(addParticipantButton, msg);
                 }
             }
         });
