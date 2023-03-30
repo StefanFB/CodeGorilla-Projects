@@ -34,4 +34,6 @@ I chose to save them in a ArrayList, because that allows for the array to grow w
 
 For this I created two classes. The Participant class would help me to make each new participant, while the Participants (plural!) class contains the ArrayList. It has methods to add a participant to the ArrayList. There are some debug functions to keep track of the data in the terminal.
 
-To make the form more user-friendly I added functionality to reset the form after each added participant and to empty the value when selected. The default behaviour of the spinners was annoying as the zero stayed in place. So when you use `TAB` to get into the next field and try to type `15`, you would actually type `150`.
+To make the form more user-friendly I added functionality to reset the form after each added participant. The text field for name has a default text displaying instructions. These will disappear upon focussing and reappear on losing focus, unless you have added your name. 
+
+The default behaviour of the spinners is annoying as the zero stays in place. So when you use `TAB` to get into the next field or click on the field and try to type `15`, you would actually type `150`. I couldn't get this right, since the setValue() takes an integer or an object as parameter. `null` was not accepted however.
